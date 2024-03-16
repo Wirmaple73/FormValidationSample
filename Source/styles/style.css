@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", serif;
+}
+
+body {
+    background-color: seashell;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+#centered-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-container-header {
+    font-size: 14pt;
+    text-transform: capitalize;
+}
+
+.main-form {
+    padding: 20px;
+    background-color: #fff3e4;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.form-button {
+    font-size: 14px;
+    color: white;
+    background-color: #00c200;
+    border: 1px #00a900 solid;
+    border-bottom: 3px #007300 solid;
+    border-radius: 2px;
+    padding: 6px 24px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #00a600;
+}
+
+form label {
+    font-size: 12pt;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+form input[type="text"], form input[type="password"] {
+    border: 1px black solid;
+    border-radius: 3px;
+    width: 240px;
+    height: 25px;
+}
